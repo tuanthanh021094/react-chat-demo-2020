@@ -1,0 +1,91 @@
+.Signup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  font-weight: 700;
+  overflow: auto;
+}
+
+.Signup-form-icon {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.Signup-form-icon svg {
+  padding: 10px;
+  box-shadow: 0 0 5px #ffffff;
+  border-radius: 50%;
+}
+
+.Signup-form {
+  position: relative;;
+  width: 30%;
+  padding: 30px;
+  margin: 100px auto;
+  background-color: #4a154b;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ffffff;
+}
+
+.Signup-form-group {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.Signup-form-group input {
+  border: 0;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 3px;
+  color: #2F343D;
+  word-spacing: 5px;
+}
+
+.Signup-form-button {
+  display: flex;
+  justify-content: center;
+}
+.Signup-form-button button {
+  border: 0;
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #4a154b;
+  font-size: inherit;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.Signup-form-button button:hover {
+  box-shadow: 0 0 2px #ffffff;
+  background-color: #4a154b;
+  color: white;
+}
+
+.Signup-form-link {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.Signup-form-link a {
+  color: #ffffff;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.Signup-form-link a:hover {
+  text-decoration: underline;
+}
+
+.Signup-form-group > p {
+  color: #f18912;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 12px;
+}

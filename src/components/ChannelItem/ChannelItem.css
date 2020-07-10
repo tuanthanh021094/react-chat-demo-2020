@@ -1,0 +1,58 @@
+.roomLink {
+  text-decoration: none;
+}
+
+.ChannelItem {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 16px 0;
+}
+
+.ChannelItem:hover {
+  box-shadow: 0 0 3px #ffffff;
+  transform: scale(1.01);
+  transition: 0.5s;
+}
+
+
+.ChannelItem p:first-child {
+  width: 35px;
+  height: 35px;
+  padding-top: 2px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 25px;
+  text-align: center;
+}
+
+.ChannelItem p:not(:first-child) {
+  padding-left: 10px;
+  word-spacing: 5px;
+}
+
+.blueLight {
+  background-color: #1EAAF1;
+}
+
+.greenLight {
+  background-color: #50AE55;
+}
+
+.orangeLight {
+  background-color: #50AE55;
+}
+
+.greyLight {
+  background-color: #617D8A;
+}
+
+.brownLight {
+  background-color: #785549;
+}
+
+.yellowLight {
+  background-color: #FD9727;
+}

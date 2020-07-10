@@ -1,0 +1,16 @@
+.Menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+.Menu-account,
+.Menu-search, 
+.Menu-public, 
+.Menu-list, 
+.Menu-sort,
+.Menu-create,
+.Menu-more {
+  cursor: pointer;
+}

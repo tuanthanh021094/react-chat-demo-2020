@@ -1,0 +1,28 @@
+.SendMessage {
+  display: flex;
+  position: fixed;
+  bottom: 30px;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #cbced1;
+  border-radius: 3px;
+  background-color: #ffffff;
+  margin-left: 250px;
+}
+
+.SendMessage-input {
+  padding: 3px;
+  flex: 1 0 0;
+}
+
+.SendMessage-input input {
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+  font-family: inherit;
+}
+
+.form-send-mess {
+  display: flex;
+  min-width: 80vw;
+}

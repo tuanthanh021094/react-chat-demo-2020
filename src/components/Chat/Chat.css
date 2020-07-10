@@ -1,0 +1,13 @@
+.Chat-join {
+  position: fixed;
+  background-color: #4a154b;
+  padding: 12px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 100px;
+  /* min-width: 30%; */
+  margin-top: 12px;
+  margin-left: 95%;
+  transform: translate(-50%);
+  z-index: 15;
+}
